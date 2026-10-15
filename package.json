@@ -1,0 +1,9 @@
+{
+  "name": "skribbl-clone",
+  "private": true,
+  "scripts": {
+    "dev:server": "pnpm --filter ./packages/server dev",
+    "dev:client": "pnpm --filter ./packages/client dev",
+    "test": "pnpm -r --if-present test"
+  }
+}
